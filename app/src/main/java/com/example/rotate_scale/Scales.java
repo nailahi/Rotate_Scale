@@ -17,7 +17,6 @@ public class Scales extends AppCompatActivity {
         setContentView(R.layout.activity_scales);
     }
 
-//switch doesn't work with scale for some reason omg nvm
     public void onClick(View view){
         Switch aSwitch = (Switch) findViewById(R.id.switch2);
         ImageView image = findViewById(R.id.imageView2);
